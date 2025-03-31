@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "0d21c2e4-9252-4d04-98bd-c26e6fe2d447",
+		"name": "payments",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23349684"
+	},
+	"item": [
+		{
+			"name": "summary",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "EUR/highest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/payment/EUR/highest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"payment",
+						"EUR",
+						"highest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EUR/lowest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/payment/EUR/lowest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"payment",
+						"EUR",
+						"lowest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EUR/transaction-volume",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/payment/EUR/transaction-volume",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"payment",
+						"EUR",
+						"transaction-volume"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EUR/outstanding-amounts-per-company",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/payment/EUR/outstanding-amounts-per-company",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"payment",
+						"EUR",
+						"outstanding-amounts-per-company"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "outstanding-amounts-per-currency",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/payment/outstanding-amounts-per-currency",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"payment",
+						"outstanding-amounts-per-currency"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

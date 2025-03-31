@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DailyPaymentAggregatorApplication {
+public class DailyPaymentsAggregatorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DailyPaymentAggregatorApplication.class, args);
+		SpringApplication.run(DailyPaymentsAggregatorApplication.class, args);
 	}
 
 }
